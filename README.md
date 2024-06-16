@@ -12,7 +12,8 @@ The AVS Project integrates with the Connect3 ecosystem to fetch and manage data 
 
 ### AVS Architecture
 
-![avs drawio](https://github.com/connect3world/connect3-da-demo/assets/9106716/0881f7db-da8f-48c6-aae3-8e3eeb07a50d)
+![avs](https://github.com/connect3world/connect3-da-demo/assets/9106716/172258d0-6e1c-44f3-b54f-50280bdb063e)
+
 
 The AVS architecture is designed to facilitate interaction between the core Ethereum components, AVS contracts, and off-chain applications. The key components include:
 
@@ -29,7 +30,7 @@ In this project demonstration, the functionality is to fetch C3Data using an Eth
 
 ### Connect3 High-Level Architecture
 
-![C3_decentralization drawio](https://github.com/connect3world/connect3-da-demo/assets/9106716/08dd46a4-3b35-4d3e-88c0-e6272929e8f9)
+![c3-high-level](https://github.com/connect3world/connect3-da-demo/assets/9106716/1fa6b2fa-2d6e-4279-bf2f-b00988fbb19a)
 
 
 The Connect3 architecture is designed to showcase the comprehensive structure of our Connect3 project, highlighting how various components interact to ensure data availability and verification. Within this architecture, the AVS serves as the Data Availability (DA) layer, playing a crucial role in managing and retrieving data efficiently.
@@ -150,7 +151,7 @@ This C3Data example demonstrates the structure and fields used to describe a pie
 ### Next Step: Aggregating Social Data with AVS
 Connect3 currently provides capabilities for aggregating social data. In the next phase, AVS will integrate these capabilities through a series of planned enhancements. Tasks will be triggered to synchronize and fetch data from sources such as Farcaster Hub, Lens Momoka, and IPFS/Arweave. The Operator will fetch, aggregate, and restructure this social data into standard posts. Using a Merkle tree, the root hash of all aggregated data between tasks will be computed and stored on-chain. This root hash can be verified through challenges to ensure data integrity. The goal is to migrate this business logic to AVS, enhancing its functionality.
 
-![avs_merkle](https://github.com/connect3world/connect3-da-demo/assets/9106716/01d9e5cc-d633-4eb4-9b58-6cc3058d4b93)
+![next_step](https://github.com/connect3world/connect3-da-demo/assets/9106716/530565f3-0f5e-473c-a621-92e8459d2fb5)
 
 
 ## License
